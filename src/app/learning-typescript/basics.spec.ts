@@ -535,9 +535,9 @@ describe('functions', () => {
     });
 
     it('function and stuff practice', () => {
-        // write a function 
-        // that take a number
-        // reuturns true of fals if the numb is even
+        function isEven(num: number): boolean {
+            return num % 2 === 0;      
+      }
     });
 });
 
